@@ -1,0 +1,94 @@
+html {
+  font-family: "Nunito Sans", sans-serif;
+  max-width: 1920px;
+}
+
+body {
+  margin: 0px;
+}
+
+.nav-list {
+  display: flex;
+}
+.nav-list-item {
+  list-style-type: none;
+}
+
+nav {
+  display: flex;
+  background-color: #333;
+  color: #f2f2f2;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+}
+.nav-section {
+  display: flex;
+}
+#user li a,
+#guest li a {
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+  font-size: 18px;
+  font-style: bold;
+}
+
+#guest,
+#user {
+  padding: 0px;
+}
+
+#user.nav-list li.nav-list-item a:hover,
+#guest.nav-list li.nav-list-item a:hover {
+  background-color: #000000;
+  color: #00ff37;
+}
+
+.nav-logo a {
+  font-size: 8px;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  padding-left: 10px;
+  margin: auto;
+  padding: auto;
+}
+
+.text-logo {
+  width: 11vw;
+  height: 32px;
+  padding-top: 5px;
+  padding-left: 4px;
+}
+
+.logo {
+  width: 28px;
+  height: 38px;
+}
+
+.text-img {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.text {
+  font-weight: bold;
+  height: auto;
+}
+
+.container {
+  padding: 7px 17px;
+  margin: 0px;
+}
+#coins-container {
+  display: inline-flex;
+}
+
+.spiner {
+  margin: 0px;
+  padding: 7px 17px;
+  font-weight: bold;
+  color: #333;
+}

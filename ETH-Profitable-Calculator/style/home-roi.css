@@ -1,0 +1,21 @@
+.positive {
+  border: solid 2px;
+  border-radius: 15px;
+  padding: 10px;
+  width: 121px;
+  height: 65px;
+}
+
+.price{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 22px;
+}
+
+.days{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}

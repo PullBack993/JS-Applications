@@ -1,0 +1,70 @@
+.container-login, .login-header,h2 {
+    background-color: white;
+    padding: 16px;
+    text-align: center;
+    width: 500px;
+    margin: auto;
+}
+
+
+input[type="text"], input[type="number"], input[type="password"] {
+    padding: 10px;
+    margin: -8px 0 22px 0;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: #f1f1f1;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 8px;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+.signin {
+    padding: 16px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.error-msg{
+    background: #ff9595;
+    padding: 1px;
+    border-radius: 11px;
+}
+
+.error-text{
+    font-size: 18px;
+    color: white;
+}
+
+
+#is-valid {
+    border-left: 5px solid green;
+}
+
+#is-invalid {
+    border-left: 5px solid red;
+}

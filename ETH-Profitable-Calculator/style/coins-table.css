@@ -1,0 +1,38 @@
+td {
+  width: 150px;
+  padding: 12px;
+
+  text-align: center;
+}
+
+.coin-table:hover{
+  background-color: #87f289;
+}
+
+table {
+  font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    height: 60px;
+    border-bottom: solid 2px #dbe4f1; 
+    width: 100%;
+}
+
+.coin-position{
+  text-align: center;
+  width: 35px;
+}
+
+.fa-sort-up, .fa-sort-down{
+  vertical-align: middle;
+  font-size: 20px;
+}
+
+#positive{
+  color:green;
+  padding-top: 7px;
+}
+#negative{
+  color:red;
+  padding-bottom: 10px;
+}
